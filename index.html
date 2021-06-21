@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="#">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cooper-hewitt" type="text/css"/>
+    </head>
+    <body>
+        <div id="title-round-scores">
+            <h1>Rock Paper Scissors</h1>
+            <div id="round-general-info">
+                <div>
+                    <div id="round-text">Round <span id="round-number"></span></div>
+                </div>
+                <div id="all-scores">
+                    <div>
+                        <div id="user-score-text">User's Score: <span id="user-score-value"></span></div>
+                    </div>
+                    <div>
+                        <div id="computer-score-text">Computer's Score: <span id="computer-score-value"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="options">
+            <button id="rock-option" class="option">
+                <img class="option-image" src="images/rock.png" width="200" height="200">
+            </button>
+            <button id="paper-option" class="option">
+                <img class="option-image" src="images/paper.png" width="200" height="200">
+            </button>
+            <button id="scissors-option" class="option">
+                <img class="option-image" src="images/scissors.png" width="200" height="200">
+            </button>
+        </div>
+        <div id="result-info">
+            <div id="result" class="result-info-class"></div>
+            <div id="selection" class="result-info-class">
+                First to reach 5 points wins<br>
+                Click any option to begin
+            </div>
+            <div id="overall-result"></div>
+            <button id="reset-button" class="result-info-class">Reset</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
